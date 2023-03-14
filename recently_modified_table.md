@@ -16,3 +16,5 @@ where tab.owner not in ('ANONYMOUS','CTXSYS','DBSNMP','EXFSYS', 'LBACSYS',
       and obj.last_ddl_time > (current_date - INTERVAL '60' DAY)
 order by last_modify desc;
 ```
+
+[BACK](/README.md)
